@@ -4,3 +4,9 @@ create role s3_json_dynamodb and attached inline policy and aws managed policy o
 Create trigger from S3 with all the events
   S3: javahome-json-test
 upload file in bucket and it will trigger the event
+and put the records in dynamo db
+
+CSV to Dynamodb
+Similar to Above:
+Upload csv on S3 and event trigger with .csv and any type of trigger
+loop around the data present in csv and enter data in s3_json_dynamodb
