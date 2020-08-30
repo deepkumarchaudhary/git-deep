@@ -1,0 +1,6 @@
+Created bucket in S3 named - javahome-json-test
+Create policy s3_json_dynamodb.json
+create role s3_json_dynamodb and attached inline policy and aws managed policy of s3 full access
+Create trigger from S3 with all the events
+  S3: javahome-json-test
+upload file in bucket and it will trigger the event
