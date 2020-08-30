@@ -14,6 +14,7 @@ Use Case: Lambda is for background work only, if something needs to manage in ba
 5) Automation of EBS snapshot in timely manner and store in S3
 6) AWS Sample Example: Real-time file processing
 7) AWS Sample Example: Web applications handling
+8) When EC2 stop, send out a notification at email id
 
 
 
